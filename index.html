@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir</title>
+    <link rel="stylesheet" href="partiel.css">
+</head>
+
+<!-- HEADER -->
+<div id="header">
+
+<div id="logos">
+<h3>Grayscale</h3>
+</div>
+
+<div id="hein">
+<a href="" class="lien2">About</a>
+<a href="" class="lien2">Projects</a>
+<a href="" class="lien2">Contact us</a>
+</div>
+
+</div>
+<!-- FIN HEADER -->
+
+
+<body>
+
+<!-- IMAGE + CTA+ TEXTE -->
+<div id="part1">
+
+<div id="image">
+<img src="bg-masthead.jpg" alt="">
+</div>
+
+<div id="texte">
+<p>A Free responsive, one page Bootstrap theme created by start Bootstrap</p>
+</div>
+
+<div id="btn">
+<a href="" class="lien3">Contact us</a>
+</div>
+
+</div>
+<!-- FIN IMAGE + CTA+ TEXTE -->
+
+
+
+<!-- SHORLINES 1 -->
+
+<div id="part2">
+
+<div id="image2">
+<img src="bg-signup.jpg" alt="">
+</div>
+
+<div id="texte2">
+<div id="titre">   
+<h3>Shorlines</h3>
+</div>
+
+<p>A Free responsive, one page Bootstrap theme created by start Bootstrap"Lorem ipsum" is a placeholder text commonly used in the printing and typesetting industry. It is often used to fill a space on a page and give an impression of how the final text will look. The text is derived from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+</div>
+
+</div>
+
+<!-- FIN SHORLINES 1  -->
+
+
+<!-- SHORLINES 2 -->
+<div id="part3">
+
+<div id="texte3">
+<div id="titre2">   
+<h3>Shorlines</h3>
+</div>
+
+<p>A Free responsive, one page Bootstrap theme created by start Bootstrap"Lorem ipsum" is a placeholder text commonly used in the printing and typesetting industry. It is often used to fill a space on a page and give an impression of how the final text will look. The text is derived from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+</div>
+
+<div id="image3">
+<img src="bg-masthead.jpg" alt="">
+</div>
+
+
+
+</div>
+<!-- FIN SHORLINES 2 -->
+
+
+<!-- land -->
+<div id="part4">
+
+<div id="image4">
+<img src="bg-signup.jpg" alt="">
+</div>
+
+<div id="texte4">
+<p>Subcribe to recieve updates !</p>
+</div>
+
+
+<div id="formulaire">
+
+<form action=""method="GET">
+
+<div id="n+p">
+
+<div id="n">
+<label for="nom"> </label> <input type="text" value="" name="ENTREZ VOTRE NOM" placeholder="ENTREZ VOTRE NOM" id="nom" onchange="checkNom()"aria-required="true" aria-invalid="true" > <br>
+</div>
+
+<div id="p">
+<label for="prenom"></label> <input type="text" value="" name="ENTREZ VOTRE PRENOM" placeholder="ENTREZ VOTRE PRENOM" id="prenom" onchange="checkprenom()" aria-invalid="true"><br>
+</div>
+
+</div>
+
+<div id="ebtn">
+
+<div id="e">
+<label for="email"></label> <input type="email" value="" name="ENTREZ VOTRE EMAIL" placeholder="ENTREZ VOTRE EMAIL" id="mail" onchange="checkmail()" aria-invalid="true"><br>
+</div>
+
+<div id="btn2">
+<label for="button"></label> <input type="submit" value="VALIDER" name="button" placeholder="button" id="nom">
+</div>
+
+</div>
+
+</form>
+
+</div>
+<!-- FIN land -->
+
+
+
+<!-- JS -->
+
+<script>
+function checknom(test){
+var nom = document.getElementById("nom").value;
+
+    if (nom != ""){
+        document.getElementById("nom").classList.add('valid');
+        document.getElementById("nom").classList.remove('notValid');
+        etat = true;
+    }
+    else{
+        document.getElementById("nom").classList.remove('valid');
+        document.getElementById("nom").classList.add('notValid');
+        etat = false;
+    }
+}
+
+
+
+
+
+</script>
+
+<!-- FIN JS -->
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
